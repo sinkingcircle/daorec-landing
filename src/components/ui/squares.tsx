@@ -35,7 +35,7 @@ export function Squares({
     if (!ctx) return
 
     // Set canvas background
-    canvas.style.background = "#060606"
+    canvas.style.background = "#212121"
 
     const resizeCanvas = () => {
       canvas.width = canvas.offsetWidth
