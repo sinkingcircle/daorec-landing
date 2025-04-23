@@ -28,7 +28,7 @@ const RegistrationForm: React.FC = () => {
     <div className="w-full max-w-md mx-auto">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-white mb-3">Welcome Recruit</h2>
-        <p className="text-blue-400">Enter your registration number to continue</p>
+        <p className="text-blue-400">Enter your registration number to know your department</p>
       </div>
       
       <form onSubmit={handleSubmit} className="space-y-6">
@@ -42,7 +42,7 @@ const RegistrationForm: React.FC = () => {
             }}
             onFocus={() => setIsFocused(true)}
             onBlur={() => setIsFocused(false)}
-            placeholder="e.g., 23BAI1080"
+            placeholder="e.g., 23BAI1080(enter to know your department)"
             className="w-full px-4 py-3 bg-transparent text-white placeholder-blue-500/60 focus:outline-none"
             aria-label="Registration Number"
           />
