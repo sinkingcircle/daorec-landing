@@ -61,6 +61,19 @@ const RegistrationForm: React.FC = () => {
             </div>
           </StarBorder>
         </div>
+
+        {/* Add WhatsApp Link */}
+        <div className="text-center pt-4">
+          <a 
+            href="https://chat.whatsapp.com/Gr3VxcAmWUb5ri3wqWlZEo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-blue-300 transition-colors duration-200 flex items-center justify-center gap-2"
+          >
+            <span className="text-2xl font-extrabold border-b-2 border-blue-400/30 hover:border-blue-300">Join WhatsApp Now</span>
+            <ArrowRight className="w-4 h-10 transform group-hover:translate-x-1 transition-transform" />
+          </a>
+        </div>
       </form>
     </div>
   );
